@@ -1,0 +1,1 @@
+This repository demonstrates a common Dockerfile error resulting in unnecessarily large image sizes and potential build issues. The initial Dockerfile omits the crucial `apt-get clean` command after installing packages.  The solution shows the corrected Dockerfile, including this command for efficient image management.
